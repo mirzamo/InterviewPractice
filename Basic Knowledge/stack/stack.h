@@ -9,10 +9,10 @@
 typedef struct node NODE;
 struct node
 {
-	int data;
-	struct node* next;
+	int 	data;
+	struct  node *next;
 };
 
 // functions
-NODE* push(NODE*, int);
-NODE* pop(NODE**);
+NODE *push(NODE *, int);
+NODE *pop(NODE **);
