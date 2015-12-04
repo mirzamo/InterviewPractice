@@ -15,9 +15,9 @@ int tops[Number_of_Stacks] = {-1, -1, -1};		// initially all the stacks are empt
 // stacks are numbered from 0 .. n
 int push(int stackNumber, int value)
 {
-	if (topes[stackNumber] >= Stack_Size )
+	if (tops[stackNumber] >= Stack_Size )
 		return 0;
 
 	else 
-		
+		array[ -stackNumber * Stack_Size + tops[stackNumber]]
 }

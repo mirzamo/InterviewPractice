@@ -1,0 +1,5 @@
+// Given a directed graph. Find out if there is rout between two nodes
+// Problem Source: Cracking the code, 4.2
+// 11/29/15
+
+int isRout ()

@@ -31,21 +31,24 @@ int * sum (int *a, int *b, int a_size, int b_size)
 		{
 			sum += (c[c_size - 1 - i] + b[b_size - 1 - i]); 
 
-			printf("sum: %d %d\n", sum, sum%10, sum/10);
 				c[c_size - 1 - i] = sum % 10;
 				sum = sum / 10;
 			
 		}
 
-	}/*
+	}
 	else
 	{
-			for (i = 0; i < sizeof(b), i++)
-				c[i] = b[i];
+		for (i = 0; i < a_size; i++)
+			c[c_size - 1 - i] = a[a_size - 1 - i];
 
-			for( i = 0; i < a_size; i++)
-				c[c_size - 1 - i] += a[a_size - 1 - i]; 
-	}*/
+		for( i = 0; i < b_size; i++)
+		{
+			sum += (c[c_size - 1 - i] + b[b_size - 1 - i]); 
+
+				c[c_size - 1 - i] = sum % 10;
+				sum = sum / 10; 
+	}
 
 	//for (i = 0; i < sizeof(a); i++)
 

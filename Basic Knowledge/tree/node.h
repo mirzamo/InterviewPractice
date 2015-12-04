@@ -1,7 +1,8 @@
 // Binary tree Node
 typedef struct node NODE 
 {
-	int data;
+	//int data;
+	char *word;
 	struct node *right;
 	struct node *left;
 };
